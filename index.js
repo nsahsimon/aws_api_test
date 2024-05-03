@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-const PORT = 3000;
+const PORT = 4000;
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
@@ -10,7 +10,7 @@ app.listen(PORT, () => {
 
 app.get("/", (req, res) => {
     console.log(`we got you`);
-    res.send("we gotto you!")
+    res.json("we gotto you!")
 })
 
 
