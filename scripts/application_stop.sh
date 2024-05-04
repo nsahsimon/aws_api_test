@@ -2,4 +2,4 @@
 # stopping existing node servers
 #sdf
 echo "stopping any existing node serverss"
-pkill node
+sudo pkill node
