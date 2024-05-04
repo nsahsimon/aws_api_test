@@ -9,8 +9,12 @@ app.listen(PORT, () => {
   });
 
 app.get("/", (req, res) => {
-    console.log(`we got you`);
-    res.json("we gotto you!")
+    console.log(`Executing root route`);
+      // Set a timeout to delay the response by 30 seconds
+    setTimeout(() => {
+        res.json("returning response after 30 seconds")
+    }, 30000); 
+    
 })
 
 
