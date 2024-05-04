@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
       // Set a timeout to delay the response by 30 seconds
     setTimeout(() => {
         res.json("returning response after 30 seconds")
-    }, 30000); 
+    }, 3); 
     
 })
 
