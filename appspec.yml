@@ -1,5 +1,5 @@
 version: 0.0
-#might as well change to ubuntu
+#might as well change to ubuntui
 os: linux
 files:
   - source: /
