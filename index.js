@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     console.log(`Executing root route`);
       // Set a timeout to delay the response by 30 seconds
     setTimeout(() => {
-        res.json("returning response after 30 seconds")
+        res.json("returning response after 310 seconds")
     }, 3); 
     
 })
