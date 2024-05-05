@@ -1,4 +1,4 @@
-version: 0.0
+version: 1.0
 #might as well change to ubuntui
 os: linux
 files:
